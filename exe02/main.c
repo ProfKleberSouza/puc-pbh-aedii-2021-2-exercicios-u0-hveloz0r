@@ -1,8 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+int main(void) {
+
+    /*<----------<DEFINICAO DE VARIAVEIS>---------->*/
+    int Rendimento = 0, Velocidade= 0, Tempo = 0, Distancia = 0, Litros= 0;
+    
+    /*<----------<ENTRADA DE DADOS>---------->*/
+    printf("\nInforme o rendimento do veiculo: ");
+    scanf("%d", &Rendimento);
+    
+    printf("\nInforme o velocidade media: ");
+    scanf("%d", &Velocidade);
+
+    printf("\nInforme o valor tempo da viagem: ");
+    scanf("%d", &Tempo);
+
+    /*<----------<RESULTADO>---------->*/
+    printf("\nR = %d", Rendimento);    
+    printf("\nV = %d", Velocidade);
+    printf("\nT = %d", Tempo);
+    printf("\nD = %d", Distancia = Tempo * Velocidade);
+    printf("\nL = %d", Litros = Distancia / Rendimento);
+    
 }
