@@ -10,7 +10,7 @@ int main(void) {
     printf("\nInforme o rendimento do veiculo: ");
     scanf("%d", &Rendimento);
     
-    printf("\nInforme o velocidade media: ");
+    printf("\nInforme a velocidade media: ");
     scanf("%d", &Velocidade);
 
     printf("\nInforme o valor tempo da viagem: ");
