@@ -6,7 +6,7 @@ int main(void) {
     /*<----------<DEFINICAO DE VARIAVEIS>---------->*/
     int Rendimento = 0, Velocidade= 0, Tempo = 0, Distancia = 0, Litros= 0;
     
-    /*<----------<ENTRADA DE DADOS>---------->*/
+    /*<----------<ENTRADA DE DADOS>--------->*/
     //nInforme o valor tempo da viagem:
     scanf("%d", &Tempo);
     //Informe o rendimento do veiculo:
