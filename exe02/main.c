@@ -7,14 +7,13 @@ int main(void) {
     int Rendimento = 0, Velocidade= 0, Tempo = 0, Distancia = 0, Litros= 0;
     
     /*<----------<ENTRADA DE DADOS>---------->*/
-    printf("\nInforme o rendimento do veiculo: ");
+    //nInforme o valor tempo da viagem:
+    scanf("%d", &Tempo);
+    //Informe o rendimento do veiculo:
+    scanf("%d", &Velocidade);
+    //Informe a velocidade media:
     scanf("%d", &Rendimento);
     
-    printf("\nInforme a velocidade media: ");
-    scanf("%d", &Velocidade);
-
-    printf("\nInforme o valor tempo da viagem: ");
-    scanf("%d", &Tempo);
 
     /*<----------<RESULTADO>---------->*/
     printf("\nR = %d", Rendimento);    
