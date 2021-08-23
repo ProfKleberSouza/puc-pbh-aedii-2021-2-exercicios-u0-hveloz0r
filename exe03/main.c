@@ -3,7 +3,7 @@
 
 int main(void) {
 
-    /*<----------<DEFINICAO DE VARIAVEIS>---------->*/
+    /*<----------<DEFINICAO DE VARIAVEIS>--------->*/
     int num;
 
     /*<----------<ENTRADA DE DADOS>---------->*/
