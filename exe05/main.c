@@ -11,6 +11,7 @@ int main(void) {
         scanf("%d", &notas[i]);
         soma += notas[i];
     }
+    
     /*<----------<OPERACAO>---------->*/
     media = (float)soma/i;
 
