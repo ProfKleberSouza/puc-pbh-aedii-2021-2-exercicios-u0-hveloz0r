@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
    int n1, n2;
    scanf("%i %i", &n1, &n2);
    printf("SOMA = %i\n", n1+n2);
