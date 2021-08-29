@@ -1,8 +1,24 @@
 #include <stdio.h>
 
-int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+int main (void) {
+    /*<----------<DEFINICAO DE VARIAVEIS>---------->*/
+    int N_numero, maior=0, menor, i, cont;
+    scanf("%i", &N_numero);
+    
+    menor = i;
+
+    /*<----------<ENTRADA DE DADOS>---------->*/
+    for(i=0; i<N_numero; i++) {
+        scanf("%i", &cont);
+        if(cont>maior){
+            maior=cont;
+        }
+        else if(cont<menor){
+                menor=cont;
+        }
+    }
+    
+    /*<----------<RESULTADO>---------->*/
+    printf("\nMENOR = %i", menor);
+    printf("\nMAIOR = %i", maior);
 }
