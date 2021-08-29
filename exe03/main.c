@@ -6,6 +6,7 @@ int main(void) {
     /*<----------<DEFINICAO DE VARIAVEIS>--------->*/
     int num;
 
+
     /*<----------<ENTRADA DE DADOS>---------->*/
     scanf("%d", &num);
 
