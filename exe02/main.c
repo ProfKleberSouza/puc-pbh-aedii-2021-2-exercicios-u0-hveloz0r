@@ -14,7 +14,6 @@ int main(void) {
     //Informe a velocidade media:
     scanf("%d", &Rendimento);
     
-
     /*<----------<RESULTADO>---------->*/
     printf("\nR = %d", Rendimento);    
     printf("\nV = %d", Velocidade);
